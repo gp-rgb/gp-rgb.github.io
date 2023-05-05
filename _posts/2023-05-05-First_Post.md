@@ -21,6 +21,12 @@ for the first iteration of this model, i'm electing to choose animals with stron
 
 the choice of only australian animals is purely sentimental. the group consists of 3 marsupials, 3 birds, 3 reptiles and 1 monotreme.
 
-## multiclass loss function
+## model configuration
 
-a multiclass loss function is to be designed for the classifier.
+a resnet18 model is to be used as a backbone for this example. resnet has excellent transfer-learning performance on image classification problems.
+
+a multiclass loss function is to be designed for the classifier. i think cross-entropy is a good selection, as it is well-suited to non-binary (multiclass) classification problems.
+
+## training and testing
+
+the model was trained on 30 images per class, and tested with one image per class (300 total training images and 10 total testing images). fine-tuning resnet over 3 epochs is a suitable training method, and yielded great results. the model was able to identify all testing images with over 99% certainty.
