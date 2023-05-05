@@ -1,4 +1,4 @@
-# animal classifier
+# animal classifier model development
 
 tasked with the creation of a classifier capable of differentiating up to 10 different animals. to be adapted from fastai cat vs dog classifier.
 
