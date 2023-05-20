@@ -4,7 +4,11 @@ in just over 1 hour of training (gpu-assisted!), i have a model that performs wi
 
 <img width="260" alt="traintime" src="https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/50da9d78-e9b7-4129-9d08-bfea6b59c594">
 
-## metrics
+## model selection
+
+the review of hyperparameters led to the selection of resnet50 as the architecture that had the best trade-off between training time, and feature-detection capability. the default loss function of cross-entropy loss and the ADAM optimisation function were also found to be most effective on the dataset.
+
+## performance
 
 Here are some cool graphics about the model's performance
 
