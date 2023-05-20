@@ -7,7 +7,7 @@ now it's time to look at the performance of the mdoel in-depth. i'd like to gene
 
 the training process can be most effectively visualised with a loss-iterations graph. the losses for both the training and validation set are shown. most often, we are only interested in the performance on the validation set, as it gives an indication of how well the model performs on new data.
 
-## top losses
+## biggest Ls
 ![download (2)](https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/48075702-0dbb-427b-909d-e4eec5ae07c5)
 
 9 of the greatest loss datapoints are shown. these show the data points that the model was least certain about, or ones that the model misclassified. Apart from the misclassification of a goanna as a koala, most other misclassifications were all between animals of the same class (marsupials, reptiles, birds, etc.).
