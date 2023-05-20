@@ -1,6 +1,8 @@
 # ai image detection architecture review
 Various architectures were tested. Most architectures tested were designed to fix what is known as the "vanishing gradient problem". this is a problem encountered when trying to deepen CNNs with more layers. Eventually, adding more layers causes feature gradients to approach zero, becoming useless.
 
+The following graphs were generated from a small subset of the CIFAKE dataset, and are used only to test each model's relative performances.
+
 ## ResNet
 <img width="423" alt="a_r50" src="https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/d7be1497-ad6c-4470-a5df-dcd4eb452d52">
 
