@@ -25,6 +25,6 @@ Here are some cool graphics about the model's performance
 
 ![download (1)](https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/926df391-113b-4560-8f05-c88e8949f371)
 
-### top losses
+### biggest Ls
 
 ![download](https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/1ecae3a7-85d3-4ef5-84c2-572e8b57fe30)
