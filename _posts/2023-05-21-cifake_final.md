@@ -1,4 +1,4 @@
-# 97% accurate ResNet50 Model
+# 98% accurate ResNet50 Model on CIFAKE
 
 in just over 1 hour of training (gpu-assisted!), i have a model that performs with 98% accuracy on cifake dataset. very cool!!
 
