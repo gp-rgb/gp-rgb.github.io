@@ -10,7 +10,7 @@ got some really nice metrics for question 2. confusion matrix makes it really ea
 
 ## question 3 progress
 
-moved to kaggle for this one, as there's a cifake dataset built-in. training takes an awfully long time on resnet50 over resnet18. will keep you updated on resnet50 performance, as well as ways of improving that eventual model.
+moved to kaggle for this one, as there's a cifake dataset built-in. training takes an awfully long time on resnet50 over resnet18. will keep you updated on resnet50 performance, as well as ways of improving that eventual model. Look at the training times on this one!
 
 <img width="260" alt="traintime" src="https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/7e691ed6-c02a-4c1d-9328-a8d3db8fedab">
 
