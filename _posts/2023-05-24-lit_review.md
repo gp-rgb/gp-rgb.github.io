@@ -26,9 +26,15 @@ ResNet implements connections between layers detecting high-level features and t
 DenseNet is a modification of the ResNet model, with additional "dense" layers between convolutional layers [6]. These dense layers preserve high-level features as the model progressively downsamples the original image, which allow good performance with fewer trainable parameters [6].
 
 # References
+
 [1] Konstantinos Demertzis, Stavros Demertzis, and Lazaros Iliadis. A selective survey review of computational intelligence applications in the primary subdomains of civil engineering specializations. Applied Sciences, 13(6), 2023.
+
 [2] Mohammadreza Iman, Hamid Reza Arabnia, and Khaled Rasheed. A review of deep transfer learning and recent advancements. Technologies, 11(2), 2023.
+
 [3] Hee E. Kim, Alejandro Cosa-Linan, Nandhini Santhanam, Mahboubeh Jannesari, Mate E. Maros, and Thomas Ganslandt. Transfer learning for medical image classification: A literature review. BMC Medical Imaging, 22(1), 2022.
+
 [4] Jiazhi Liang. Image classification based on resnet. Journal of Physics: Conference Series, 1634(1):012110, 2020.
+
 [5] Rikiya Yamashita, Mizuho Nishio, Richard Kinh Do, and Kaori Togashi. Convolutional neural networks: An overview and application in radiology. Insights into Imaging, 9(4):611–629, 2018.
+
 [6] Yuan Yang, Lin Zhang, Mingyu Du, Jingyu Bo, Haolei Liu, Lei Ren, Xiaohe Li, and M. Jamal Deen. A comparative analysis of eleven neural networks architectures for small datasets of lung images of covid-19 patients toward improved clinical decisions. Computers in Biology and Medicine, 139:104887, 2021.
