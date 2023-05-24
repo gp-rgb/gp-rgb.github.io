@@ -1,10 +1,4 @@
-<span style="font-family:Papyrus;
-             font-size:4em;
-             color:red;">
-  
-**welcome** to my little blog. here i will be documenting my progress in the third *ELEC4630* assignment.
-
-</span>
+<span style="font-family:Papyrus;font-size:4em;color:red;"> **welcome** to my little blog. here i will be documenting my progress in the third *ELEC4630* assignment. </span>
 
 
 
