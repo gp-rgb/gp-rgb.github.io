@@ -1,6 +1,6 @@
 # 98% accurate ResNet50 Model on CIFAKE
 
-in just over 1 hour of training (gpu-assisted!), i have a model that performs with 98% accuracy on cifake dataset. very cool!!
+in **just over 1 hour of training (gpu-assisted!)**, i have a model that performs with *98% accuracy on cifake dataset*. very cool!!
 
 <img width="260" alt="traintime" src="https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/50da9d78-e9b7-4129-9d08-bfea6b59c594">
 
