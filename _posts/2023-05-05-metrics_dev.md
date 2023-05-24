@@ -20,5 +20,25 @@ Shows a different visualisation of common misclassifications.
 ## t-SNE visualisation
 ![download (3)](https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/8b794744-f827-4e14-be3e-5c98918569e5)
 
-the t-sne visualisation shows a compressed version of the model. the many-dimensional cnn is generalised into two axes, and various datapoints are plotted into different prediction clusters. the colours of the datapoints indicate their true class.
+the t-sne visualisation shows a compressed version of the model. the many-dimensional cnn is generalised into two axes, and various datapoints are plotted into different prediction clusters. the colours of the datapoints indicate their true class. the code used to generate this graph is shown below.
+
+    from sklearn.manifold import TSNE
+
+    def visualise_with_tsne(learn, p=5,l=100):
+      pred,actual = learn.get_preds()
+      pred_np = pred.numpy()
+      actual_np = actual.numpy()
+      tsne = TSNE(n_components=2,perplexity=p,learning_rate=l)
+      tsne_data = tsne.fit_transform(pred_np)
+
+      sct = plt.scatter(tsne_data[:, 0], tsne_data[:, 1],c=actual_np)
+      plt.xlabel('t-SNE Dimension 1')
+      plt.ylabel('t-SNE Dimension 2')
+      plt.title('t-SNE Visualization')
+
+      plt.legend()
+      legend_elements = sct.legend_elements()
+      legend = plt.legend(handles=legend_elements[0], labels=legend_elements[1])
+      plt.show()
+
 
