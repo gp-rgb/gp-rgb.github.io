@@ -1,6 +1,9 @@
 # Literature Review
 Here we explore several models used in literature on similar problems.
 
+[output (1).pdf](https://github.com/gp-rgb/gp-rgb.github.io/files/11549535/output.1.pdf)
+
+
 ## The Basic Convolutional Neural Network
 
 The basic neural network struggles to identify patterns in images, as it has no support for understanding data in grids. The first convolutional neural network was proposed in 1990, as a way to adapt the basic neural network to recognise visual patterns in images [4] . It is made up of a series of different layers, the three types including the convolutional, pooling and fully-connected layers [4].
