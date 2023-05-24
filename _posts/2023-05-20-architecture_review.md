@@ -4,14 +4,12 @@ Various architectures were tested. Most architectures tested were designed to fi
 This basic loop of code was used to generate the results that you can see. The following graphs were generated from a small subset of the CIFAKE dataset, and are used only to test each model's relative performances.
 
 '''
-
+{
 backbones = [
     resnet18,
     densenet121,
     vgg16
 ]
-
-
 for back in backbones:
     learn_lossvar=0
     learn_lossvar = vision_learner(subset_dls, back, metrics=accuracy,loss_func=CrossEntropyLossFlat(),opt_func = opt)
@@ -25,8 +23,7 @@ for back in backbones:
     plt.title(back)
     plt.show()
     sleep(1)
-
-
+}
 '''
 
 ## ResNet
