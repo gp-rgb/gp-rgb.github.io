@@ -1,7 +1,7 @@
 # Literature Review
-Here we explore several models used in literature on similar problems.
+Here we explore several models used in literature on similar problems. See the pdf version of this literature review below!
 
-[output (1).pdf](https://github.com/gp-rgb/gp-rgb.github.io/files/11549535/output.1.pdf)
+[literature_review.pdf](https://github.com/gp-rgb/gp-rgb.github.io/files/11549535/output.1.pdf)
 
 
 ## The Basic Convolutional Neural Network
