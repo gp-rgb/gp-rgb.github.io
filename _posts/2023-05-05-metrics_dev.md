@@ -23,7 +23,8 @@ Shows a different visualisation of common misclassifications.
 the t-sne visualisation shows a compressed version of the model. the many-dimensional cnn is generalised into two axes, and various datapoints are plotted into different prediction clusters. the colours of the datapoints indicate their true class. the code used to generate this graph is shown below.
 
 
-A good explanation of t-sne is available [here]. (https://distill.pub/2016/misread-tsne/ "Title")
+A good explanation of t-sne is available [here][id]. 
+[id](https://distill.pub/2016/misread-tsne/ "Title")
 
     from sklearn.manifold import TSNE
 
