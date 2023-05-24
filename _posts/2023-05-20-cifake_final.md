@@ -28,3 +28,11 @@ Here are some cool graphics about the model's performance
 ### biggest Ls
 
 ![download](https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/1ecae3a7-85d3-4ef5-84c2-572e8b57fe30)
+
+# Notebook
+
+The notebook section for the resnet50 model is available below.
+
+[q3_RES50.pdf](https://github.com/gp-rgb/gp-rgb.github.io/files/11549619/q3_RES50.pdf)
+
+
