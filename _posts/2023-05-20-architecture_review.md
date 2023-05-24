@@ -3,7 +3,6 @@ Various architectures were tested. Most architectures tested were designed to fi
 
 This basic loop of code was used to generate the results that you can see. The following graphs were generated from a small subset of the CIFAKE dataset, and are used only to test each model's relative performances.
 
-'''
 
     backbones = [
         resnet18,
@@ -23,8 +22,6 @@ This basic loop of code was used to generate the results that you can see. The f
         plt.title(back)
         plt.show()
         sleep(1)
-
-'''
 
 ## ResNet
 <img width="423" alt="a_r50" src="https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/d7be1497-ad6c-4470-a5df-dcd4eb452d52">
