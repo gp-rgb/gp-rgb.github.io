@@ -19,14 +19,11 @@ A lot of problems use a pretrained CNN, rather than building one from scratch. T
 
 ![backbones](https://github.com/gp-rgb/gp-rgb.github.io/assets/131956221/ddab02be-8ba3-48d6-a582-d227bdfbef98)
 
-### VGG
-Designed for image-wide classification problems, VGG is one of the older transfer learning models [6]. It consists of multiple convolutional layers, and has 3x3 kernel sizes [6].
-
-### ResNet
-ResNet implements connections between layers detecting high-level features and those detecting low-level ones [6]. This allows ResNet models to get very deep with minimal training time, as these connections help optimise the training process [6].
-
-### DenseNet
-DenseNet is a modification of the ResNet model, with additional "dense" layers between convolutional layers [6]. These dense layers preserve high-level features as the model progressively downsamples the original image, which allow good performance with fewer trainable parameters [6].
+| Backbone | Description                                                                                                                                                                                                                                                                                   |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| VGG      | Designed for image-wide classification problems, VGG is one of the older transfer learning models [6]. It consists of multiple convolutional layers, and has 3x3 kernel sizes [6].                                                                                                            |
+| ResNet   | ResNet implements connections between layers detecting high-level features and those detecting low-level ones [6]. This allows ResNet models to get very deep with minimal training time, as these connections help optimise the training process [6].                                        |
+| DenseNet | DenseNet is a modification of the ResNet model, with additional “dense” layers between convolutional layers [6]. These dense layers preserve high-level features as the model progressively downsamples the original image, which allow good performance with fewer trainable parameters [6]. |
 
 # References
 
